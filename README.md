@@ -1,6 +1,6 @@
-                                                                            CRYPTONEON
+                                                                        CRYPTONEON
                                                                             
-                                                                  A Cryptocurrency Analysis Tool
+                                                              A Cryptocurrency Analysis Tool
                                                                   
       Features: 
       1. Live Graphs
