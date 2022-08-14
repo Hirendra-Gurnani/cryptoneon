@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap');
+
+body {
+	background-color: #000000;
+	font-family: 'Montserrat', sans-serif;
+	/*overflow-y: hidden;*/
+}
+
+body::-webkit-scrollbar {
+	background-color: white;
+	width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: #333;
+	width: 5px;
+}
+
+
+nav{
+	top: 0 !important;
+	position: absolute !important;
+	/* margin-top: 50px !important; */
+	padding-left: 0 !important;
+	left: 222px;
+}
+
+h2 hr{
+	/* border: 5px solid; */
+	border-radius: 6px;
+	background: linear-gradient(to right, #041662, #DC143C, #041662);
+	height: 8px;
+}
+
+.dark {
+	padding-right: 5px;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+.dark a {
+	background-color: white;
+	transition: background-color 0.6s;
+}
+
+.dark a:hover {
+	background-color: #404b53;
+	border-radius: 5px;
+	color: aliceblue !important;
+}
+
+
+
+.bgimg {
+	position: absolute;
+	margin-top: 2%;
+	margin-left: 50%;
+	height: 90%;
+	width: 40%;
+	z-index: -1;
+	opacity: 0.5;
+	animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate{
+    from{transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+
+.table_block {
+	margin: 250px 50px 50px 50px;
+	background-color: #041662;
+	border-radius: 12px;
+	color: white;
+	position: absolute;
+}
+
+.table_block th, td {
+	padding: 20px;
+	text-align: center;
+}
+
+.tda:first-child {
+	text-align: left;
+}
+
+.table_block strong, img {
+	cursor: pointer;
+}
+
+.about_mailer {
+	position: absolute;
+	float: right;
+	right: 10%;
+	border-radius: 8px;
+	color: white;
+	background: #041662;
+	max-width: 35%;
+	padding: 20px;
+	top: 32%;
+}
+
+.wel {
+	position: absolute;
+	float: left;
+	left: 10.7%;
+	top: 10%;
+	/* right: 10; */
+	/* background: lightyellow; */
+	padding: 20px;
+}
+
+.logo{
+	position: absolute;
+    top: 0;
+	width:140;
+}
+
+.about_mailer .far {
+	font-size: inherit;
+	cursor: default;
+}
+
+.far {
+	font-size: 30;
+	cursor: pointer;
+}
+
+.fa-chevron-circle-right {
+	font-size: 35;
+	cursor: pointer;
+}
+
+.aler {
+	display: inline-flex;
+}
+
+.aler button {
+	background-color: rgba(255, 0, 0, 0);
+	padding: 4px;
+	border: none;
+}
+
+.aler i{
+	color: white;
+}
+
+.aler input {
+	padding: 8px;
+}
+
+.aler input::-webkit-outer-spin-button,
+.aler input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.search_button {
+	cursor: pointer;
+}
+
+.wrapper_dash {
+	width: 500px;
+	z-index: 99;
+	margin: 50px auto auto 538px;
+	position: absolute;
+	visibility: hidden;
+}
+
+.wrapper_dash .textinput {
+	background-color: white;
+	width: 100%;
+	position: relative;
+	border-radius: 5px;
+}
+
+.textinput input {
+	height: 50px;
+	width: 100%;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	padding: 0px 40px 0px 50px;
+	font-size: 18px;
+	box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.textinput button {
+	background-color: #DC143C;
+	width: 20%;
+	height: 50px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.textinput .recom {
+	padding: 0px;
+	font-size: 18px;
+	overflow-y: auto;
+	opacity: 0;
+	pointer-events: none;
+	position: absolute;
+	background-color: white;
+}
+
+.textinput.active .recom {
+	padding: 10px 8px;
+	pointer-events: auto;
+	opacity: 1;
+	z-index: 2;
+}
+
+
+.recom li {
+	padding: 6px 10px;
+	list-style: none;
+	display: none;
+}
+
+.textinput.active .recom li {
+	display: block;
+}
+
+.recom li:hover {
+	background-color: #efefef;
+}
+
+.supsr {
+	/* padding: 2px;
+	/* border: 2px 2px double black; */
+	/* background-color: white; */
+	color: rgb(0, 0, 0);
+	/* outline: 2px outset black; */
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none !important;
+	/* border-radius: 100%; */ 
+}
+
+.empty_space{
+	margin-top: 50%;
+}

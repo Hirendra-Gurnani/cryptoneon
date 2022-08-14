@@ -1,0 +1,31 @@
+body{
+	background-color: blue;
+}
+.outer{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    visibility: visible;
+}
+.outer .spinner{
+  width:200px;
+  margin: 20% auto auto 45%;
+  height: 200px;
+  border-top: 6px solid #090b0c;
+  border-right: 7px solid #ffffff;
+  border-radius: 200%;
+  color: aliceblue;
+  position: relative;
+  animation: rotate 0.7s linear infinite;
+}
+
+@keyframes rotate{
+    from{transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}

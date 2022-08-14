@@ -1,0 +1,43 @@
+@media (max-width: 480px) {
+    .h1 {
+      /* font-size: 2px; */
+      left: 0 !important;
+      /* margin-left: 130px !important; */
+    }
+
+    .navbar-expand-md, .navbar{
+      left: 0 !important;
+      position: relative;
+      float: left;
+    }
+
+    .navbar-toggler{
+        background-color: blue !important;
+        top: 15;
+        position: absolute;
+        z-index: 5;
+        left: 0;
+        /* margin-right: 50%; */
+    }
+
+    .searchbar h2{
+        /* margin-top: 50px; */
+        top: 0 !important;
+        font-size: large;
+    }
+
+    .login_details {
+      position: absolute;
+      margin-top: 50px;
+      visibility: hidden;
+    }
+
+    .bgimg {
+      position: relative;
+      /* margin-left: 45%; */
+      z-index: -2;
+      top: 0;
+      height: 22%;
+      width: 11%;
+    }
+  }

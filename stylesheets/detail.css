@@ -1,0 +1,588 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap');
+.outer{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    visibility: visible;
+    z-index: 99;
+}
+.outer .spinner{
+  width:200px;
+  margin: 20% auto auto 45%;
+  height: 200px;
+  border-top: 6px solid #090b0c;
+  border-right: 7px solid #ffffff;
+  border-radius: 200%;
+  color: aliceblue;
+  position: relative;
+  animation: rotate 0.7s linear infinite;
+}
+
+@keyframes rotate{
+    from{transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+.bgimg2 {
+    position: absolute;
+    margin-left: 45%;
+    height: 90%;
+    width: 45%;
+    opacity: 0.3;
+    z-index: -2;
+}
+
+.logo{
+	position: absolute;
+    top: 0;
+	width:140;
+}
+
+
+.meta {
+    width: 50%;
+    position: absolute;
+    padding-top: 0.5%;
+    margin: 0.5% 0 0 10%;
+    color: aliceblue;
+    /* border: 1px solid #848c94; */
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 7px rgba(0, 0, 0, 0.265);
+    height: 20%;
+    background-color: #404b53;
+}
+
+.meta img {
+    position: absolute;
+    margin: 1%;
+    height: 100px;
+    width: 100px;
+}
+
+.login_det {
+    width: 50%;
+    height: 10%;
+    left: 0;
+    display: flex;
+    margin-left: 191px;
+    margin-top: 95px;
+    /* margin-top: 0.5%; */
+    border-radius: 5px;
+    font-size: x-large;
+
+}
+
+.login_det button {
+    /* width: 50%; */
+    height: 80%;
+    margin-right: 20px;
+    padding: 20px;
+    max-width: max-content;
+    color: white;
+    background-color: #DC143C;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.name {
+    position: absolute;
+    float: left;
+    margin: 10px 0 0 120px;
+}
+
+.name h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+
+.price {
+    position: absolute;
+    float: left;
+    margin: 80px 0 0 125px;
+}
+
+.price h1 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.meta table {
+    position: absolute;
+    right: 0;
+    color: aliceblue;
+    float: right;
+    margin: 10px 8px 0 0;
+}
+
+.meta tr, td {
+    padding: 10px;
+    font-size: larger;
+}
+
+
+.cnv {
+    width: 25%;
+    height: 38%;
+    position: absolute;
+    right: 12%;
+    float: right;
+    margin: 4.7% 0 0 0;
+    color: aliceblue;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 7px rgba(0, 0, 0, 0.265);
+    z-index: -1;
+    background-color: #404b53;
+    padding: 10px 20px 23px 20px;
+}
+
+.cnv table td{
+    color : white;
+}
+.chrt {
+    height: 9.8vh;
+    width: 50vw;
+    margin: 13.5% 0 0 10%;
+    border-radius: 8px;
+    position: absolute;
+    float: left;
+}
+
+.chrt .canvas1 {
+    padding: 15px;
+    visibility: visible;
+    position: absolute;
+    border-radius: 8px;
+    background-color: #404b53;
+    box-shadow: 0px 0px 8px 7px rgba(0, 0, 0, 0.265);
+}
+
+.chrt .canvas2 {
+    padding: 15px;
+    visibility: hidden;
+    position: absolute;
+    border-radius: 8px;
+    background-color: #404b53;
+    box-shadow: 0px 0px 8px 7px rgba(0, 0, 0, 0.265);
+}
+
+
+.chrt_info {
+    width: 50%;
+    position: absolute;
+    border-radius: 8px;
+    margin: 10.8% 0 0 10%;
+    color: aliceblue;
+}
+
+.chrt_info button {
+    background-color: #404b53;
+    text-decoration: none;
+    color: aliceblue;
+    width: 100px;
+    height: 40px;
+    /* margin : 20px 4.3px; */
+    /*position: absolute;*/
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.6s;
+
+}
+
+.chrt_info button:active {
+    background-color: #DC143C;
+}
+
+.chrt_info button:hover {
+    background-color: #ffbb00;
+}
+
+.chrt_info button:focus {
+    background-color: #DC143C;
+}
+
+.chrt_info .watchlist {
+    color: white;
+    background-color: #DC143C !important;
+    width: 200px;
+    float: right;
+    /* max-width: fit-content; */
+    border-radius: 5px;
+    /* z-index: 2; */
+    box-shadow: 0px 0px 3px 2px #00000033;
+}
+
+.inf {
+    width: 25%;
+    height: 30.1%;
+    position: absolute;
+    right: 12%;
+    float: right;
+    margin: 24% 0 0 0;
+    color: aliceblue;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 7px rgba(0, 0, 0, 0.265);
+    background-color: #404b53;
+}
+
+.inf h5 {
+    margin: 20px 10%;
+}
+
+.inf input {
+    height: 23px;
+    width: 50%;
+    background-color: #ffffff;
+    outline: none;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    padding: 21px 20px 21px 15px;
+    font-size: 15px;
+    box-shadow: 0px 0px 8px 7px rgba(0, 0, 0, 0.265);
+    margin: 7px 5% 7px 11%;
+}
+
+.inf input::placeholder {
+    color: #404b53;
+}
+
+.inf input:hover::placeholder {
+    color: aliceblue;
+}
+
+.inf button {
+    background-color: #DC143C;
+    text-decoration: none;
+    color: white;
+    width: 15%;
+    height: 43px;
+    text-align: center;
+    border-radius: 5px;
+    /* margin: 10px 40%; */
+    box-shadow: 0px 0px 8px 7px rgba(0, 0, 0, 0.265);
+}
+
+body .navbar {
+    margin-left: 130px;
+}
+
+/* .navbar .navbar-nav {
+    margin-top: 10px;
+    padding-left: 20px;
+} */
+
+.inf p {
+    background-color: white;
+    width: 50%;
+    height: 44px;
+    padding: 11px;
+    font-size: 15px;
+    box-shadow: 0px 0px 8px 7px rgba(0, 0, 0, 0.265);
+    /* margin: 12px 5%; */
+    border-radius: 5px;
+    color: white;
+}
+
+.inf form {
+    display: inline;
+}
+
+.lbl {
+    padding: 0 15px 0px 15px;
+    font-size: 22px;
+    
+}
+
+.dis {
+    display: flex;
+    justify-content: stretch;
+}
+.dis p{
+    color : black;
+}
+.dark {
+    padding-right: 5px;
+    border-radius: 2px;
+}
+
+.dark a {
+    background-color: white;
+    transition: background-color 0.6s;
+}
+
+.dark a:hover {
+    background-color: #404b53;
+    border-radius: 5px;
+    color: aliceblue !important;
+}
+
+.seek {
+    width: 21%;
+    margin: 0.5% 0 0 0;
+    right: 16%;
+    position: absolute;
+}
+
+.seek .userinput {
+    background-color: #404b53;
+    width: 100%;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.userinput input {
+    height: 50px;
+    width: 100%;
+    background-color: #404b53;
+    outline: none;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    padding: 30px 40px 30px 30px;
+    font-size: 18px;
+    box-shadow: 0px 0px 8px 7px #00000044;
+}
+
+input::placeholder {
+    color: aliceblue;
+}
+
+input:hover::placeholder {
+    color: #404b53;
+}
+
+.userinput button {
+    background-color: #DC143C;
+    text-decoration: none;
+    color: #000000;
+    width: 20%;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.userinput .rcm {
+    padding: 0px;
+    font-size: 18px;
+    overflow-y: auto;
+    opacity: 0;
+    pointer-events: none;
+    color: white;
+
+}
+
+.userinput.active .rcm {
+    padding: 10px 8px;
+    pointer-events: auto;
+    opacity: 1;
+}
+
+
+.rcm li {
+    padding: 6px 10px;
+    list-style: none;
+    display: none;
+    /*z-index:1;*/
+    cursor: pointer;
+}
+
+
+.userinput.active .rcm li {
+    display: block;
+}
+
+.rcm li:hover {
+    background-color: white;
+    color: black;
+}
+
+.search_button {
+    cursor: pointer;
+}
+
+.wrapper_det {
+    width: 500px;
+    z-index: 99;
+    margin: 0px auto auto 598px;
+    position: absolute;
+    visibility: hidden;
+}
+
+.onblur {
+    right: 0;
+    display: flex;
+    margin: 16% 18% 0 0;
+    z-index: 3;
+    padding: 8px;
+    border: 2px solid black;
+    background-color: #DC143C;
+    position: absolute;
+    border-radius: 5px;
+    color: #000000;
+}
+
+.onblur .fas {
+    font-size: 50;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+
+.wrapper_det .textinput {
+    background-color: white;
+    width: 100%;
+    position: relative;
+    border-radius: 5px;
+}
+
+.textinput input {
+    height: 58px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0px 40px 0px 50px;
+    font-size: 18px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.textinput input::placeholder {
+    color: #404b53;
+}
+
+.textinput input:hover::placeholder {
+    color: aliceblue;
+}
+
+.textinput button {
+    background-color: #DC143C;
+    width: 20%;
+    height: 58px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.textinput .recom {
+    padding: 0px;
+    font-size: 18px;
+    overflow-y: auto;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    background-color: white;
+}
+
+.textinput.active .recom {
+    padding: 10px 8px;
+    pointer-events: auto;
+    opacity: 1;
+    z-index: 2;
+}
+
+
+.recom li {
+    padding: 6px 10px;
+    list-style: none;
+    display: none;
+    cursor: pointer;
+}
+
+.textinput.active .recom li {
+    display: block;
+}
+
+.recom li:hover {
+    background-color: #efefef;
+}
+
+.supsr {
+    background-color: white;
+    color: #000000;
+}
+
+.more_details_container{
+    margin : 765px 230px 500px 190px;
+}
+.more_details_container p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+.more_details{
+    background-color: #404b53;
+    box-shadow: 0px 0px 8px 7px rgba(0, 0, 0, 0.265);
+    border-radius: 5px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    position: absolute;
+    width : 78%;
+    height : 20%;
+    /*font-size: 18px;*/
+
+}
+.more_details th{
+    /*padding:15px 17.5px;*/
+    font-weight: normal;
+    color : white;
+    text-align: center;
+
+    
+}
+.dropdown_container{
+    margin-left: 43.5%;
+    margin-bottom: 20px;
+    margin-right: 43%;
+}
+
+.dropbtn {
+  background-color: #04AA6D;
+  color: black;
+  padding: 16px;
+  font-size: 20px;
+  font-weight: 800;
+  border: 2px solid black;
+  background-color: white;
+  width: 200px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content li {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  width: 200px;
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content li:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown_container:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown_container:hover .dropbtn {background-color: red;}
