@@ -16,5 +16,5 @@
 
 
 
- Created by- Aditya Narayanan (Backend operations- PHP, Python- SQLib, SMTP)
-             Hirendra Gurnani (HTML Framework and CSS Design)
+    Created by- Aditya Narayanan (Backend operations- PHP, Python- SQLib, SMTP)
+                Hirendra Gurnani (HTML Framework and CSS Design)
